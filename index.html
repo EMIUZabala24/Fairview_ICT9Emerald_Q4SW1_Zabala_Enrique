@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Money Convertr</title>
+</head>
+<body>
+<a href="Page Two.html" class="btn btn-primary"><h3>Dollars</h3></a>
+<a href="Page Three.html" class="btn btn-primary"><h3>Euros</h3></a>
+
+<p id="answer"></p>
+
+<script type="text/javascript">
+    let a = 100;
+    let b = 0.018;
+    let c = 0.016;
+    let d = a*b;
+    let e = a*c;
+
+    document.getElementById('sample').innerHTML="<h2 class='text-info'>Click The Buttons to convert Php100 into either Dollars or Euros.</h2>";
+    localStorage.setItem('dlres', d);
+    localStorage.setItem('eures', e);
+        
+    /*document.getElementById('answer').innerHTML="<h2 class='text-info'>" + c + "</h2>";*/
+    //document.write("<h2 class='text-info'>Hello JavaScript</h2>");
+    //window.alert("Hello JavaScript");  
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Page</title>
+</head>
+<body>
+<a href="Main Page.html" class="btn btn-primary"><h3>Main Page</h3></a>
+
+<script type="text/javascript">
+    let result = localStorage.getItem('dlres'); 
+    document.getElementById('answer').innerHTML="<h2 class='text-info'>The result of the addition is: " + result + "</h2>";
+</script>
+</body>
+</html>
